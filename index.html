@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <title>WebCanvas</title>
+    </head>
+    <body>
+        <div class="left">
+            <input type="file" id="upload"/>
+            <img id="luxury" src="luxury.png" style="position: absolute; top: 0px; left: 0px;">
+            <img id="memecat" src="memecat.png" style="position: absolute; top: 0px; left: 0px;">
+            <img id="mememan" src="mememan.png" style="position: absolute; top: 0px; left: 0px;">
+            <canvas id="myCanvas" width="700px" height="550px" style="position:absolute; top:0px; left:0px; z-index: 1; background-color:  aliceblue; border:1px solid  #000000;"></canvas>
+            <canvas id="tmpCanvas" width="700px" height="550px" style="position:absolute; top:0px; left:0px; z-index: 0;"></canvas>
+        </div>
+        <div class="right">
+            <div class="row">
+                <input id="size" type="range" min="1" max="30" step="1" onchange="changeSize()">
+                <input id="color" type="color" value = "#000000" onchange="changeColor()">
+            </div>
+            <div class="row">
+                <select class="dropbtn" id="fontMenu" onchange="SizeFont()">
+                    <option value="Arial">Arial</option>
+                    <option value="Kavivanar">Kavivanar</option>
+                </select>
+                <select class="dropbtn" id="sizeMenu" onchange="SizeFont()">
+                    <option value="20px">20px</option>
+                    <option value="30px">30px</option>
+                    <option value="40px">40px</option>
+                </select>
+                <select class="dropbtn" id="frameMenu" onchange="changeFrame()">
+                    <option value="1">Luxury Style</option>
+                    <option value="2">Meme Cat</option>
+                    <option value="3">Meme Man</option>
+                </select>
+            </div>
+            <div class="row" >
+                <button class="button" id="brush" style="background-color: transparent; border: none;" onclick="changeMode(0)"><img src="pen.png"></button>
+                <button class="button" id="eraser" style="background-color: transparent; border: none;" onclick="changeMode(1)"><img src="eraser.png"></button>
+                <button class="button" id="type" style="background-color: transparent; border: none;" onclick="changeMode(2)"><img src="type.png"></button>
+            </div>
+            <div class="row">
+                <button class="button" id="circle" style="background-color: transparent; border: none;" onclick="changeMode(3)"><img src="circle.png"></button>
+                <button class="button" id="rectangle" style="background-color: transparent; border: none;" onclick="changeMode(4)"><img src="rectangle.png"></button>
+                <button class="button" id="triangle" style="background-color: transparent; border: none;" onclick="changeMode(5)"><img src="triangle.png"></button>
+            </div>
+            <div class="row">
+                <button class="button" id="undo" style="background-color: transparent; border: none;" onclick="Undo()"><img src="undo.png"></button>
+                <button class="button" id="redo" style="background-color: transparent; border: none;" onclick="Redo()"><img src="redo.png"></button>
+                <button class="button" id="reset" style="background-color: transparent; border: none;" onclick="Reset()"><img src="reset.png"></button>
+            </div>
+            <div class="row">
+                <label for="upload" id="imageLoader"><img src="upload.png"></label>
+                <a id="Download" download="image.png">
+                    <button class="button" id="download" style="background-color: transparent; border: none;" onclick="Download()"><img src="download.png"></button>
+                </a>
+                <button class="button" id="frame" style="background-color: transparent; border: none;" onclick="Frame()"><img src="frame.png"></button>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
