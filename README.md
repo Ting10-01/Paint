@@ -1,92 +1,30 @@
-# Software Studio 2020 Spring
-## Assignment 01 Web Canvas
+# å°ç•«å®¶
 
+### ç°¡ä»‹ 
 
-### Scoring
+![](https://i.imgur.com/Mz0FpQ8.png) æŒ‰ä¸‹é€™å€‹buttonæ‹–æ›³å³å¯åœ¨canvasä¸Šç•«ç•«
 
-| **Basic components**                             | **Score** | **Check** |
-| :----------------------------------------------- | :-------: | :-------: |
-| Basic control tools                              | 30%       | Y         |
-| Text input                                       | 10%       | Y         |
-| Cursor icon                                      | 10%       | Y         |
-| Refresh button                                   | 10%       | Y         |
+![](https://i.imgur.com/4B23Zzr.png)é€™å€‹buttonå¯ä»¥æŠŠä»»ä½•ç•«å¸ƒä¸Šçš„ç—•è·¡ã€åœ–ç‰‡æ“¦æ‰
 
-| **Advanced tools**                               | **Score** | **Check** |
-| :----------------------------------------------- | :-------: | :-------: |
-| Different brush shapes                           | 15%       | Y         |
-| Un/Re-do button                                  | 10%       | Y         |
-| Image tool                                       | 5%        | Y         |
-| Download                                         | 5%        | Y         |
+![](https://i.imgur.com/OjPpCH0.png)åœ¨ç•«å¸ƒä¸Šé»æ“Šå³å¯åœ¨é‚£å€‹ä½ç½®æ‰“å­—ï¼Œbackspaceå¯ä»¥åˆªé™¤å‰ä¸€å€‹æ–‡å­—ï¼Œä½†è¦æŒ‰ä¸‹enteréµæ–‡å­—æ‰æœƒçœŸæ­£è¢«å¯«åœ¨canvasä¸Š
 
-| **Other useful widgets**                         | **Score** | **Check** |
-| :----------------------------------------------- | :-------: | :-------: |
-| Name of widgets                                  | 1~5%     | Y         |
+![](https://i.imgur.com/SgJDrjM.png)ç•«åœ“å·¥å…·ï¼Œåœ¨ç•«å¸ƒä¸Šé»æ“Šæ‹–æ›³å³å¯ï¼Œåœ“å¿ƒæœƒåœ¨æ»‘é¼ ä¸€é–‹å§‹é»æ“Šçš„ä½ç½®ä¸Š
 
+![](https://i.imgur.com/PNTEAuu.png)é»æ“Šå³å¯ç•«é•·æ–¹å½¢ï¼Œä¸€é–‹å§‹é»æ“Šçš„ä½ç½®æœƒæ˜¯å…¶ä¸­ä¸€å€‹è§’çš„ä½ç½®ï¼Œå¯ä»¥å¾€ä»»æ„æ–¹å‘æ‹–æ›³
 
----
+![](https://i.imgur.com/80dw94D.png)é€™å€‹buttonç•«å‡ºä¾†çš„ä¸‰è§’å½¢æ˜¯ç­‰è…°ä¸‰è§’å½¢ï¼Œä¹Ÿå¯ä»¥å¾€ä»»æ„ä½ç½®æ‹–æ›³
 
-### How to use 
+![](https://i.imgur.com/nWHiL6T.png)é‚„åŸä¸Šä¸€å€‹å‹•ä½œï¼Œå¦‚æœå·²ç¶“é‚„åŸåˆ°æœ€ä¸€é–‹å§‹å°±ä¸æœƒæœ‰ä»»ä½•å‹•ä½œ
 
-![](https://i.imgur.com/Mz0FpQ8.png) «ö¤U³o­Óbutton©ì¦²§Y¥i¦bcanvas¤Wµeµe
+![](https://i.imgur.com/ihRhPxp.png)é‚„åŸä¹‹å¾Œå¯ä»¥å†æŠŠå‰›å‰›é‚„åŸçš„å‹•ä½œå¾©åŸå›ä¾†ï¼Œå¾©åŸåˆ°æœ€æ–°çš„æ™‚å€™ä¸æœƒå†åšä»»ä½•æ”¹è®Š
 
-![](https://i.imgur.com/4B23Zzr.png)³o­Óbutton¥i¥H§â¥ô¦óµe¥¬¤Wªº²ª¸ñ¡B¹Ï¤ùÀ¿±¼
+![](https://i.imgur.com/5KzcMqU.png)é‡è£½ç•«å¸ƒï¼ŒæŠŠæ‰€æœ‰ç•«å¸ƒä¸Šçš„æ±è¥¿éƒ½æ¸…ç©ºï¼Œä¹Ÿç„¡æ³•undo, redoï¼Œå›åˆ°æœ€ä¸€é–‹å§‹çš„ç‹€æ…‹
 
-![](https://i.imgur.com/OjPpCH0.png)¦bµe¥¬¤WÂIÀ»§Y¥i¦b¨º­Ó¦ì¸m¥´¦r¡Abackspace¥i¥H§R°£«e¤@­Ó¤å¦r¡A¦ı­n«ö¤UentetÁä¤å¦r¤~·|¯u¥¿³Q¼g¦bcanvas¤W
+![](https://i.imgur.com/g7n2uRi.png)é»æ“Šå³å¯é¸æ“‡ä¸Šå‚³çš„åœ–ç‰‡ï¼Œåœ–ç‰‡æœƒå‡ºç¾åœ¨ç•«å¸ƒçš„å·¦ä¸Šè§’
 
-![](https://i.imgur.com/SgJDrjM.png)µe¶ê¤u¨ã¡A¦bµe¥¬¤WÂIÀ»©ì¦²§Y¥i¡A¶ê¤ß·|¦b·Æ¹«¤@¶}©lÂIÀ»ªº¦ì¸m¤W
+![](https://i.imgur.com/3kOVmg3.png)é»æ“Šå³å¯ä¸‹è¼‰ç•¶ä¸‹ç•«å¸ƒçš„æ¨£å­
 
-![](https://i.imgur.com/PNTEAuu.png)ÂIÀ»§Y¥iµeªø¤è§Î¡A¤@¶}©lÂIÀ»ªº¦ì¸m·|¬O¨ä¤¤¤@­Ó¨¤ªº¦ì¸m¡A¥i¥H©¹¥ô·N¤è¦V©ì¦²
+![](https://i.imgur.com/J3MdoLO.png)ç•«æ¡†åŠŸèƒ½ï¼Œå¦‚æœå®Œæˆç•«ä½œå¯ä»¥é¸æ“‡åŠ ä¸Šç•«æ¡†ï¼Œä½†æ˜¯åŠ ä¸Šç•«æ¡†å¾Œå°±ç„¡æ³•å†æ›´æ”¹ç•«å¸ƒé™¤éreset
 
-![](https://i.imgur.com/80dw94D.png)³o­Óbuttonµe¥X¨Óªº¤T¨¤§Î¬Oµ¥¸y¤T¨¤§Î¡A¤]¥i¥H©¹¥ô·N¦ì¸m©ì¦²
-
-![](https://i.imgur.com/nWHiL6T.png)ÁÙ­ì¤W¤@­Ó°Ê§@¡A¦pªG¤w¸gÁÙ­ì¨ì³Ì¤@¶}©l´N¤£·|¦³¥ô¦ó°Ê§@
-
-![](https://i.imgur.com/ihRhPxp.png)ÁÙ­ì¤§«á¥i¥H¦A§â­è­èÁÙ­ìªº°Ê§@´_­ì¦^¨Ó¡A´_­ì¨ì³Ì·sªº®É­Ô¤£·|¦A°µ¥ô¦ó§ïÅÜ
-
-![](https://i.imgur.com/5KzcMqU.png)­«»sµe¥¬¡A§â©Ò¦³µe¥¬¤WªºªF¦è³£²MªÅ¡A¤]µLªkundo, redo¡A¦^¨ì³Ì¤@¶}©lªºª¬ºA
-
-![](https://i.imgur.com/g7n2uRi.png)ÂIÀ»§Y¥i¿ï¾Ü¤W¶Çªº¹Ï¤ù¡A¹Ï¤ù·|¥X²{¦bµe¥¬ªº¥ª¤W¨¤
-
-![](https://i.imgur.com/3kOVmg3.png)ÂIÀ»§Y¥i¤U¸ü·í¤Uµe¥¬ªº¼Ë¤l
-
-![](https://i.imgur.com/J3MdoLO.png)µe®Ø¥\¯à¡A¦pªG§¹¦¨µe§@¥i¥H¿ï¾Ü¥[¤Wµe®Ø¡A¦ı¬O¥[¤Wµe®Ø«á´NµLªk¦A§ó§ïµe¥¬°£«Dreset
-
-
-![](https://i.imgur.com/WOU7FB7.jpg)
-1. ½Õ¾ãµ§¨ê¤j¤p¡A¾A¥Î©óbrush, eraser¸òµe¹Ï§Îªº³¡¤À
-2. ¿ï¾ÜÃC¦â¡A¾A¥Î½d³ò¸òµ§¨ê¤j¤p¬Û¦P
-3. ¦b¥´¦rªº®É­Ô¥i¥H¿ï¾Ü¦rÅé
-4. ¿ï¾Ü¦rÅéªº¤j¤p¡A¥u¾A¥Î©ó¥´¦rªº®É­Ô
-5. ¬Û®ØºØÃş¡A¦³¤TºØ¿ï¾Ü
-
-
-
-### Function description
-
-¦pªG·Q­n²K¥[¬Û®Ø¡A´N¦b¤W­±ªº¿ï³æ¸Ì¿ï¾Ü­n¨Ï¥Îªº¬Û®Ø¡A¦b«ö¤Uªp®Øªº¹Ï¥Ü¡C«ö¤U¹Ï¥Ü«á·|¸õ¥X¤@­Óalert¸ß°İ¬O§_­n²K¥[­n²K¥[¬Û®Ø¡C
-![](https://i.imgur.com/8mz2RnQ.jpg)
-¦pªG³oÃä¿ï¾Ü½T©wªº¸Ü¡A¬Û®Ø´N·|³Q²K¥[¤W¥h¡A¥B¤£¯à¦A¹ïµe¥¬°µ¥ô¦ó§ó°Ê¡C¦ı¦pªG¿ï¾Ü¨ú®ø¡A¬Û®Ø´N¤£·|³Q²K¥[¨Ã¥B¥i¥HÄ~Äò¨Ï¥Î¨ä¥L¥\¯à¡C¦pªG¬Û®Ø³Q¥[¤W¥h¤F¡A¥u¯à¥Îresetªº¤è¦¡±Nµe¥¬²M°£¡C
-
-
-### Gitlab page link
-
+### é€£çµ
 https://107062113.gitlab.io/AS_01_WebCanvas/
-
-
-
-### Others (Optional)
-
-QAQµe®Ø¤§©Ò¥H¥[¤W¥h´N¤£¯à§ï¬O¦]¬°google¦n¹³·|§â§Úªº¹Ï¤ù¾×±¼¡A¤£Åı§Ú§â¥[¤F¬Û®Øªºµe¥¬push¶i¥harray¦s°_¨Ó¡C
-
-    Uncaught SecurityError: 
-    Failed to execute 'toDataURL' on 'HTMLCanvasElement': 
-    Tainted canvases may not be exported.
-©Ò¥H²K¥[¬Û®Ø¤§«á©Ò¦³ªº°Ê§@³£¨S¿ìªkundo¡A¦]¬°array¨S¿ìªk¦Apush·sªºªF¦è´N¨S¿ìªkÁÙ­ì¤W¤@­Ó°Ê§@QQ
-
-
-
-<style>
-table th{
-    width: 100%;
-}
-</style>
